@@ -1,4 +1,4 @@
-## Put comments here that give an overall description of what your
+## This function was written as part of the Programming Assignment 2
 ## functions do
 
 ## Write a short comment describing this function
@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+  ## Return a matrix that is the inverse of 'x'
   m <- x$getsolve()
   if(!is.null(m)) {
     message("getting cached data")
